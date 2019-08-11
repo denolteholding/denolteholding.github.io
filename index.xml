@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>denolte Holding</title>
     <link>https://dnolteholding.github.io/</link>
     <description>Recent content on denolte Holding</description>
@@ -8,6 +9,15 @@
     <language>en-us</language>
     
 	<atom:link href="https://dnolteholding.github.io/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <title>Hugo Fresh Theme</title>
+    <link>http://something-fresh.org/</link>
+    <description>Recent content on Hugo Fresh Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://something-fresh.org/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 91af8a92f9bb3a5d534dc4116f63953280fc17b1
     
     
   </channel>

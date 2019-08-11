@@ -3,17 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://dnolteholding.github.io/categories/</loc>
+=======
+    <loc>http://something-fresh.org/categories/</loc>
+>>>>>>> 91af8a92f9bb3a5d534dc4116f63953280fc17b1
     <priority>0</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dnolteholding.github.io/tags/</loc>
+=======
+    <loc>http://something-fresh.org/</loc>
+>>>>>>> 91af8a92f9bb3a5d534dc4116f63953280fc17b1
     <priority>0</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dnolteholding.github.io/</loc>
+=======
+    <loc>http://something-fresh.org/tags/</loc>
+>>>>>>> 91af8a92f9bb3a5d534dc4116f63953280fc17b1
     <priority>0</priority>
   </url>
   
