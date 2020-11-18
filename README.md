@@ -1,2 +1,2 @@
-# dnolteholding.github.io
+# denolteholding.github.io
 The public website of the dnolteholding organization.
