@@ -1,2 +1,2 @@
 # denolteholding.github.io
-The public website of the dnolteholding organization.
+The public website of the denolteholding organization.
