@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://denolte.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://denolte.com/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://denolte.com/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denolte.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://denolte.com/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://denolte.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://denolte.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denolte.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://denolte.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://denolte.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://denolte.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denolte.com/tags/"
+                />
+  </url>
+  
+</urlset>

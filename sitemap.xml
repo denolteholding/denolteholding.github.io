@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://dnolteholding.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
+  <sitemap>
+    <loc>https://denolte.com/en/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://dnolteholding.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
+  <sitemap>
+    <loc>https://denolte.com/de/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://dnolteholding.github.io/</loc>
-    <priority>0</priority>
-  </url>
+  <sitemap>
+    <loc>https://denolte.com/zh/sitemap.xml</loc>
+    
+  </sitemap>
   
-</urlset>
+</sitemapindex>
