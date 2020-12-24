@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://denolte.com/categories/</loc>
+    <loc>https://www.denolte.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://denolte.com/de/categories/"
+                href="https://www.denolte.com/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://denolte.com/zh/categories/"
+                href="https://www.denolte.com/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denolte.com/categories/"
+                href="https://www.denolte.com/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://denolte.com/</loc>
+    <loc>https://www.denolte.com/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://denolte.com/de/"
+                href="https://www.denolte.com/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://denolte.com/zh/"
+                href="https://www.denolte.com/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denolte.com/"
+                href="https://www.denolte.com/"
                 />
   </url>
   
   <url>
-    <loc>https://denolte.com/tags/</loc>
+    <loc>https://www.denolte.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://denolte.com/de/tags/"
+                href="https://www.denolte.com/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://denolte.com/zh/tags/"
+                href="https://www.denolte.com/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denolte.com/tags/"
+                href="https://www.denolte.com/tags/"
                 />
   </url>
   
