@@ -3,78 +3,127 @@
 	<meta name="generator" content="Hugo 0.78.2" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    
+    
+    
+    
+      
+    
+    <link rel="stylesheet" href="https://denolte.com/css/main.min.e2aa831d995e5b2d63a1ecda993979ddc286bea3f1795f674ffa4418b0de6d5a.css" integrity="sha256-4qqDHZleWy1joezamTl53cKGvqPxeV9nT/pEGLDebVo=">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <script src="https://denolte.com/js/global.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU=" defer></script>
+
     
     
     <title>Hi, I am Dennis</title>
-</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="/zh" class="navbar-brand">
+</head><body><header class="bg-gray-100 flex justify-evenly py-2">
+    <nav
+        class="w-full justify-start px-2 py-1"
+        x-data="{ isOpen: false }"
+        @keydown.escape="isOpen = false">
+        <button
+            type="button"
+            class="block lg:hidden text-gray-600 mb-1 lg:mb-0"
+            :class="{ 'transition transform-180': isOpen }"
+            @click="isOpen = !isOpen">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div
+            class="w-full flex-grow lg:flex lg:items-center lg:w-auto"
+            :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }"
+            @click.away="isOpen = false"
+            x-show.transition="true">
+            <ul class="lg:flex">
+                
+                
+                <li>
+                    <a class="pr-2 py-1 lg:py-0 block border-transparent " href="https://denolte.com//">Home</a>
+                </li>
+                
+                <li>
+                    <a class="pr-2 py-1 lg:py-0 block border-transparent " href="https://denolte.com//posts/">Posts</a>
+                </li>
+                
+                <li>
+                    <a class="pr-2 py-1 lg:py-0 block border-transparent " href="https://denolte.com//tags/">Tags</a>
+                </li>
+                
+            </ul>
+        </div>    
+    </nav>
+
+    <a href="/zh" class="flex-none mx-auto align-top">
         <img src="https://denolte.com/images/header/logo.png" alt="site-logo">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ml-auto">
-            
-            <li class="nav-item"><a class="nav-link" href="https://denolte.com//">Home</a></li>
-            
-            <li class="nav-item"><a class="nav-link" href="https://denolte.com//authors/">Authors</a></li>
-            
-            <li class="nav-item"><a class="nav-link" href="https://denolte.com//posts/">Posts</a></li>
-            
-            <li class="nav-item"><a class="nav-link" href="https://denolte.com//tags/">Tags</a></li>
-            
-        </ul>
-    </div>
 
     
-    <ul class="navbar-nav flex-row ml-auto d-flex pl-md-2">
-        <li class="nav-item dropdown">
+    
+    
+            
+    
+            
+    
+    <div
+        class="w-full justify-end"
+        x-data="{ open: false }">
+        <div
+            @click.away="open = false"
+            class="flex w-full justify-end">
+            <button
+                @click="open = !open"
+                class="text-gray-600 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline pl-2 pr-2 mr-1 py-1">
+                <i class="fas fa-globe" aria-hidden="true"></i>
+                <span class="hidden lg:inline lg:pl-1">中文<i class="fas fa-caret-down pl-2" aria-hidden="true"></i></span>
+            </button>
             
             
-            
-            
-            
-            
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                <i class="fas fa-globe mr-1" aria-hidden="true"></i>
-                <span class="d-none d-lg-inline">中文</span>
-            </a>
-            <div class="dropdown-menu">
-                <div class="dropdown-item active">
-                    <span>中文</span>
+
+            <div
+                x-show="open"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95"
+                x-transition:enter-end="transform opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-75"
+                x-transition:leave-start="transform opacity-100 scale-100"
+                x-transition:leave-end="transform opacity-0 scale-95"
+                class="absolute right-1 w-full mt-6 origin-top-right md:w-48">
+
+                <div class="px-2 py-2 bg-gray-50">
+                    
+                    <a
+                        class="block px-2 py-2 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none"
+                        href="https://denolte.com/">
+                        English
+                    </a>
+                    
+                    <a
+                        class="block px-2 py-2 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none"
+                        href="https://denolte.com/de/">
+                        German
+                    </a>
+                    
                 </div>
-            
-            
-            
-
-            
-            <a class="dropdown-item" href="https://denolte.com/" data-target="/">
-                <span>English</span>
-            </a>
-            
-            <a class="dropdown-item" href="https://denolte.com/de/" data-target="/de/">
-                <span>German</span>
-            </a>
-            
             </div>
-        </li>
-    </ul>
-    
-</nav><div id="content">
+        </div>
+        
+    </div>
+</header><div id="content">
 
 
 
 
-
-<div class="row">
-    <div class="col-12 col-lg-4">
-        <div id="profile-summary">
-            
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div class="w-50 p-3">
+                
+            </div>
             
             <div class="profile-title">
                 <h2></h2>
@@ -83,34 +132,27 @@
 
             
 
-            <ul aria-hidden="true">
+            <ul class="list-inline" aria-hidden="true">
                 
                 
             </ul>
         </div>
-    </div>
 
-    <div class="col-12 col-lg-4">
-        <div id="profile-description">
-            <p></p>
+        <div class="col-12 col-lg-4">
+            <div class="">
+                <p></p>
 
-            <div class="row">
+                <div class="row">
 
-                
+                    
 
-                
+                    
 
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-        </div><p class="footer text-center">Copyright (c) 2020 Dennis Nolte</p><script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
-  integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
-  crossorigin="anonymous"></script></body>
+        </div><p class="footer text-center">&copy; 2020 Dennis Nolte</p></body>
 </html>
